@@ -1,0 +1,17 @@
+Database for quest spel Challenge 10 Mei Ferdi van den Brom Sketch
+
+inloggen met --port=8889 -uroot -proot
+
+ingesteld op de MAMP MYSQL database server
+
+---DATABASE DESIGN---
+
+create table antagonist(antagonist_ID INT NOT NULL AUTO_INCREMENT,storyline varchar(150), PRIMARY KEY(antagonist_ID));
+
+create table complication(complication_ID INT NOT NULL AUTO_INCREMENT,storyline varchar(150), PRIMARY KEY(complication_ID));
+
+create table objective(objective_ID INT NOT NULL AUTO_INCREMENT,storyline varchar(150), PRIMARY KEY(objective_ID));
+
+create table setting(setting_ID INT NOT NULL AUTO_INCREMENT,storyline varchar(150), PRIMARY KEY(setting_ID));
+
+
